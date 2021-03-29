@@ -1,0 +1,16 @@
+body {
+    font-family: 'Microsoft Yahei', Times New Roman, Times, serif;
+    font-size: 16px;
+}
+h3 {
+    color: rgb(235, 171, 12);
+    font-weight: 700;
+}
+.btn {
+    color: white;
+    background-color: tomato;
+    border: unset;
+}
+a {
+    text-decoration: none;
+}

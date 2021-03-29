@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+            font-size: 200px;
+            color: aqua;
+        }
+
+        .box1 {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            /* border: 10px solid pink; */
+            background-color: blue;
+        }
+
+        .box2 {
+            position: absolute;
+            top: -20px;
+            left: 10px;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-bottom-color: blue;
+        }
+
+        input {
+            outline: 0;
+            /* white-space: normal; */
+        }
+
+        .tex {
+            width: 100px;
+            height: 40px;
+            background-color: pink;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* 弹性伸缩盒子 */
+            display: -webkit-box;
+            /* 限制一个块元素显示的文本行数 */
+            -webkit-line-clamp: 2;
+            /* 盒子子元素的排列方式 */
+            -webkit-box-orient: vertical;
+        }
+    </style>
+    <script src="../js/iconfont.js"></script>
+</head>
+
+<body>
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-006minus03"></use>
+    </svg>
+
+    <div class="box1">
+        <div class="box2"></div>
+    </div>
+
+    <input>
+
+    <div class="tex">看脚后跟脚后跟各个环节和海关监管</div>
+
+</body>
+
+
+</html>
